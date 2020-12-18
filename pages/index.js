@@ -52,8 +52,7 @@ export async function getStaticProps({ preview = null, previewData = {} }) {
       doc,
       posts: posts ? posts.results : [],
       preview
-	}, 
-	unstable_revalidate: 1,
+	}
   }
 }
 
