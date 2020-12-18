@@ -49,7 +49,8 @@ export async function getStaticProps({ params, preview = null, previewData = {} 
     props: {
       preview,
       post
-    }
+	},
+	revalidate: 1,
   }
 }
 
