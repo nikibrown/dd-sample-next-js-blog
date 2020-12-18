@@ -50,7 +50,7 @@ export async function getStaticProps({ params, preview = null, previewData = {} 
       preview,
       post
 	},
-	revalidate: 1,
+	unstable_revalidate: 1,
   }
 }
 
