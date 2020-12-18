@@ -14,7 +14,7 @@ class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" />
-          <link rel="icon" href="/favicon.png" type="image/png" />
+          <link rel="shortcut icon" href="https://staticfiles-cdn1.dronedeploy.com/favicon.ico?refresh=yup" type="image/x-icon" />
         </Head>
         <style jsx global>{ reset }</style>
         <style jsx global>{ globals }</style>
