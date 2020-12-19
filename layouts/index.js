@@ -5,7 +5,9 @@ import Footer from "components/Footer";
  */
 const DefaultLayout = ({ children }) => (
   <div>
-    <main className="animate__animated animate__fadeIn">{children}</main>
+    <main className="animate__animated animate__shakeY">
+	<h1>This is a change!!!!</h1>
+		{children}</main>
     <Footer />
   </div>
 );
